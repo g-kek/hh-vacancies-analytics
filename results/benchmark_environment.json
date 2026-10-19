@@ -1,0 +1,46 @@
+{
+  "analysis_config": {
+    "variant": "06-c-cpp",
+    "variant_label": "6. Программист, разработчик на C и C++",
+    "student": "Кек Герман Вадимович",
+    "student_id": "91192",
+    "group": "ИИИ-3-ИнжДан-1-2",
+    "title_regex": "(^|[^a-zа-яё0-9_])[cс][ \\t]*\\+[ \\t]*\\+",
+    "role": "Программист, разработчик",
+    "object_key": "bronze/vacancies.csv",
+    "stack_limits": [
+      5,
+      10,
+      20
+    ],
+    "stack_policy": "Первые K уникальных навыков после lower, trim и лексикографической сортировки; K=0 означает полный стек",
+    "regions": [
+      "Москва",
+      "Санкт-Петербург",
+      "Новосибирск"
+    ],
+    "min_salary_support": 20,
+    "benchmark_attempts": 3,
+    "mapper_retries": 1,
+    "c_title_regex": "(^|[^a-zA-Zа-яА-ЯёЁ0-9_])(C|С|Си|си)([^a-zA-Zа-яА-ЯёЁ0-9_+#&]|$)|(^|[^a-zA-Zа-яА-ЯёЁ0-9_])c[ \\t]+(developer|engineer|разработчик|программист)",
+    "c_exclude_regex": "objective[ -]?c|mvvm[ -]?c|моби-[cс]|#[ \\t]*[cс]|[cс][ \\t]*#|[cс][ \\t]*&|[cс][ -]*sharp|(^|[^0-9])1[ \\t:–—-]*[cс]([^a-zа-яё0-9_]|$)|(^|[^a-zа-яё0-9_])[cс][ \\t]+(опыт|функци|желани|перспектив|возможн|последующ|навык|переход)|[cс]-подобн"
+  },
+  "input_sha256": "0572992aecb502f26255f5bc5b8bf7d91bdb5647616f6eb28ef4160cabeaf807",
+  "run_at": "2026-10-19T17:51:49.610611+03:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "python": "3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "logical_cpus": 8,
+  "host_memory_gib": 16.0,
+  "sampling_interval_seconds": 0.01,
+  "attempts": 3,
+  "cache_policy": "Один прогрев на движок; кэш ОС и RustFS не сбрасывается; порядок ротируется",
+  "memory_definition": "Пик суммы RSS родителя и всех его живых потомков; общие страницы могут считаться повторно",
+  "timing_definition": "Новый процесс: импорты, S3, чтение, фильтр, расчёт, сериализация JSON; без загрузки результата S3",
+  "limits": {
+    "map_workers": 2,
+    "chunk_rows": 2000,
+    "duckdb_threads": 2,
+    "duckdb_memory_limit": "1GB"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "filter_ids_equal": true,
+  "vacancies": 3847,
+  "independently_checked_regional_rows": 3,
+  "independently_checked_regional_skill_rows": 90,
+  "independently_checked_salary_effect_rows": 20,
+  "outlier_policy": "Первичный расчёт сохраняет выбросы; чувствительность: 10000..2000000 руб.",
+  "outliers": [],
+  "median_net_original": 175000.0,
+  "median_net_sensitivity": 175000.0,
+  "sample_size_net_original": 893,
+  "sample_size_net_sensitivity": 893,
+  "full_stack_occurrences": {
+    "1": 17009,
+    "2": 61615,
+    "3": 209202
+  }
+}

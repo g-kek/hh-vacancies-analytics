@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hh-vacancies-analytics"
+version = "0.1.0"
+description = "Анализ IT-вакансий: RustFS, MapReduce и DuckDB"
+requires-python = ">=3.12"
+dependencies = ["boto3", "duckdb", "psutil", "python-dotenv"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+hh = "hh_analytics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,259 @@
+{
+  "captured_at": "2026-10-19T18:45:02.459055+03:00",
+  "docker_ps": "hh-rustfs | rustfs/rustfs | Up 54 minutes | 127.0.0.1:9000-9001->9000-9001/tcp",
+  "container_image": "rustfs/rustfs@sha256:1803faef57627e2d9c2e7d89d655d712ddded5389040054987163043fecb6a3c",
+  "docker_resources": "8 CPUs, 8225779712 bytes RAM",
+  "rustfs_resources_snapshot": "hh-rustfs | 0.10% | 334.8MiB / 7.661GiB",
+  "health": {
+    "status": "ok",
+    "service": "rustfs-endpoint",
+    "timestamp": "2026-10-19T15:45:04.828986504Z[Etc/Unknown]",
+    "version": "1.0.1"
+  },
+  "bucket": "hh-lake",
+  "objects": [
+    {
+      "key": "bronze/vacancies.csv",
+      "bytes": 65706352,
+      "etag": "\"e68cd8e4999a3479d8f394366dec6aaf-8\"",
+      "modified_at": "2026-10-19T14:51:49.300000+00:00"
+    },
+    {
+      "key": "metadata/data_manifest.json",
+      "bytes": 2601,
+      "etag": "\"07a6e5fa3e655cf2d56b3ccb2f0f9d4d\"",
+      "modified_at": "2026-10-19T11:37:42.671000+00:00"
+    },
+    {
+      "key": "raw/hh.zip",
+      "bytes": 23161634,
+      "etag": "\"f29e84feddb5524098b2d08f727183ea-3\"",
+      "modified_at": "2026-10-19T11:37:41.984000+00:00"
+    },
+    {
+      "key": "raw/it_vacancies_2024.csv",
+      "bytes": 847619384,
+      "etag": "\"5d93ef0c42e6ce7b734cc44a89c4f228-102\"",
+      "modified_at": "2026-10-19T11:37:41.708000+00:00"
+    },
+    {
+      "key": "raw/submission_miss_cap99_2026-10-17.csv",
+      "bytes": 20716,
+      "etag": "\"4057034f5cc60af9d587f819755d8887\"",
+      "modified_at": "2026-10-19T11:37:42.005000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/overview.json",
+      "bytes": 343,
+      "etag": "\"4eb831a4c8fae1dd20960db3a4caa801\"",
+      "modified_at": "2026-10-19T15:44:57.203000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/regions_skills.csv",
+      "bytes": 6982,
+      "etag": "\"285bda780dcd9f52d90c5813ac1e4aa5\"",
+      "modified_at": "2026-10-19T15:44:57.224000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/regions_skills.json",
+      "bytes": 23913,
+      "etag": "\"2720cf0f6148281b9850c9a826cc65fb\"",
+      "modified_at": "2026-10-19T15:44:57.239000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/regions_summary.csv",
+      "bytes": 609,
+      "etag": "\"74fa7c3eec0adc6008266cb38eb46ae2\"",
+      "modified_at": "2026-10-19T15:44:57.253000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/regions_summary.json",
+      "bytes": 1356,
+      "etag": "\"907a77c8ca35f753bd9b1eed1bd48bbd\"",
+      "modified_at": "2026-10-19T15:44:57.268000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/salary_additions_all.parquet",
+      "bytes": 1136708,
+      "etag": "\"6e67707bf15236f40d85291fb0812b79\"",
+      "modified_at": "2026-10-19T15:44:57.314000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/salary_effects.csv",
+      "bytes": 4008,
+      "etag": "\"7c07ee58c3994f728fcd4ed6f160fe85\"",
+      "modified_at": "2026-10-19T15:44:57.331000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/salary_effects.json",
+      "bytes": 14855,
+      "etag": "\"2c11c296a3af45bb26a3b57e91bcab6e\"",
+      "modified_at": "2026-10-19T15:44:57.345000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/salary_outliers.csv",
+      "bytes": 33,
+      "etag": "\"89028c6d55a3739023ad1a56865caade\"",
+      "modified_at": "2026-10-19T14:52:54.093000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/sample.json",
+      "bytes": 2169,
+      "etag": "\"56542521554a50de67761d952eae7075\"",
+      "modified_at": "2026-10-19T14:52:54.105000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/selected_vacancies.csv",
+      "bytes": 478925,
+      "etag": "\"78341ddbd8ffcbf52655983cc4584455\"",
+      "modified_at": "2026-10-19T14:52:56.107000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis/stack_distribution.csv",
+      "bytes": 197,
+      "etag": "\"8151005bd310d140d14bb5b8d77ff1d6\"",
+      "modified_at": "2026-10-19T14:52:54.140000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/analysis_validation.json",
+      "bytes": 591,
+      "etag": "\"d361438cc3939c6b77ba5d265eb5274a\"",
+      "modified_at": "2026-10-19T15:44:59.701000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/duckdb_k10.json",
+      "bytes": 5581471,
+      "etag": "\"086702e22db81dbeb6e4550d06754a12\"",
+      "modified_at": "2026-10-19T14:52:47.633000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/duckdb_k20.json",
+      "bytes": 11357303,
+      "etag": "\"5ee781d98b54a996d8ae8c5db3f6a2e9-2\"",
+      "modified_at": "2026-10-19T14:52:47.781000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/duckdb_k5.json",
+      "bytes": 1355129,
+      "etag": "\"028040c679dfa28722822e7941a6e832\"",
+      "modified_at": "2026-10-19T14:52:48.118000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_baseline_k10.json",
+      "bytes": 5581581,
+      "etag": "\"45094c4bdde719aec5c71295aa157d74\"",
+      "modified_at": "2026-10-19T14:52:48.078000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_baseline_k20.json",
+      "bytes": 11357413,
+      "etag": "\"3d16c742a4d0c46b46ee11d017f088c1-2\"",
+      "modified_at": "2026-10-19T14:52:48.263000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_baseline_k5.json",
+      "bytes": 1355237,
+      "etag": "\"ec811cb049d800b7525f3205396790f2\"",
+      "modified_at": "2026-10-19T14:52:47.955000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k10.json",
+      "bytes": 5581581,
+      "etag": "\"d57c54c259af78eff655071752be2eb9\"",
+      "modified_at": "2026-10-19T14:52:47.545000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k20.json",
+      "bytes": 11357413,
+      "etag": "\"99c5e57a8bab532153fb2c4b9f90c74b-2\"",
+      "modified_at": "2026-10-19T14:52:47.919000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k5.json",
+      "bytes": 1355238,
+      "etag": "\"a459e0960bd76f86000b421875d4f2c2\"",
+      "modified_at": "2026-10-19T14:52:47.992000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/deliverables_check.log",
+      "bytes": 157,
+      "etag": "\"659cb2c9cc3d81b0e902891a11a9bb7d\"",
+      "modified_at": "2026-10-19T11:54:52.639000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/failure_test.json",
+      "bytes": 629,
+      "etag": "\"555b8dcae1a3daa770e545e1c5338874\"",
+      "modified_at": "2026-10-19T15:45:02.137000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/infrastructure.json",
+      "bytes": 8913,
+      "etag": "\"386649c5220945a07e770f0e3bef6305\"",
+      "modified_at": "2026-10-19T14:52:59.655000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/profiling/benchmark.log",
+      "bytes": 7483,
+      "etag": "\"6e9af13305d11877341bf3a294650369\"",
+      "modified_at": "2026-10-19T14:52:47.415000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/profiling/benchmark_environment.json",
+      "bytes": 2528,
+      "etag": "\"79b2ac8ad3aabc5a00cdef9c70d9415b\"",
+      "modified_at": "2026-10-19T14:52:47.456000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/profiling/benchmark_runs.csv",
+      "bytes": 3673,
+      "etag": "\"e0bb3117c84b29166657c836ae9d0d5a\"",
+      "modified_at": "2026-10-19T14:52:47.396000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/profiling/benchmark_summary.csv",
+      "bytes": 1110,
+      "etag": "\"ce8348a8802347ae5b938a98ae9b3d3a\"",
+      "modified_at": "2026-10-19T14:52:47.443000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/profiling/benchmark_summary.json",
+      "bytes": 2721,
+      "etag": "\"07655cb8938c8e66e67fcdb3ec2e2a22\"",
+      "modified_at": "2026-10-19T14:52:47.429000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/report.pdf",
+      "bytes": 200763,
+      "etag": "\"e2abf31196986208a735b1b9fef98470\"",
+      "modified_at": "2026-10-19T15:37:32.345000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/validation.md",
+      "bytes": 4244,
+      "etag": "\"ab7535baf06b52460f15b333ba7e3a0c\"",
+      "modified_at": "2026-10-19T11:54:52.620000+00:00"
+    },
+    {
+      "key": "results/06-c-cpp/verification.json",
+      "bytes": 1209,
+      "etag": "\"ca0330c4018940420fb5b6b9c391f154\"",
+      "modified_at": "2026-10-19T15:44:54.175000+00:00"
+    }
+  ],
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "roundtrip_checks": [
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k5.json",
+      "sha256_counts": "229e8cc72976b336f4d7d12a768758f7f9ce01d9e562b5413da96a19b5259759"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k10.json",
+      "sha256_counts": "3269cb7dba8c3b4c4cf88a6dc154f69eeed7ee087a5a6dce57fcea8adcb8e6f2"
+    },
+    {
+      "key": "results/06-c-cpp/counts/mapreduce_combined_k20.json",
+      "sha256_counts": "39ff3de5389bcf33af6acdb491cae5ca7c768d980941a566ac6c60dbccfbd803"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "vacancies": 3847,
+  "with_skills": 2969,
+  "n_net": 893,
+  "median_net": 175000.0,
+  "n_gross": 411,
+  "median_gross": 185000.0,
+  "missing_salary": 2497,
+  "foreign_salary": 46,
+  "invalid_bounds": 0,
+  "unknown_gross": 0,
+  "min_salary_from": 140.0,
+  "max_salary_to": 18000000.0,
+  "mean_stack": 4.421367299194177,
+  "max_stack": 30
+}

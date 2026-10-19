@@ -1,0 +1,100 @@
+{
+  "audit": {
+    "csv_rows": 229388,
+    "archive_rows": 10000,
+    "archive_overlaps": 10000,
+    "archive_title_matches": 9986,
+    "archive_skill_matches": 9997
+  },
+  "snapshot_dates": {
+    "2024-08-23": 202579,
+    "2024-08-24": 1295,
+    "2024-08-25": 103,
+    "2024-08-26": 92,
+    "2024-08-27": 2141,
+    "2024-08-28": 1807,
+    "2024-08-29": 1662,
+    "2024-08-30": 1452,
+    "2024-08-31": 1296,
+    "2024-09-01": 84,
+    "2024-09-02": 77,
+    "2024-09-03": 2014,
+    "2024-09-04": 1791,
+    "2024-09-05": 1752,
+    "2024-09-06": 1692,
+    "2024-09-07": 1521,
+    "2024-09-08": 83,
+    "2024-09-09": 92,
+    "2024-09-10": 2165,
+    "2024-09-11": 1649,
+    "2024-09-12": 1820,
+    "2024-09-13": 412,
+    "2024-09-15": 1809
+  },
+  "currencies": {
+    "missing": 130189,
+    "RUR": 97487,
+    "UZS": 21,
+    "USD": 1291,
+    "BYR": 44,
+    "KZT": 134,
+    "EUR": 219,
+    "KGS": 3
+  },
+  "bronze_columns": [
+    "source",
+    "vacancy_id",
+    "snapshot_date",
+    "published_at",
+    "name",
+    "role",
+    "area",
+    "key_skills",
+    "salary_from",
+    "salary_to",
+    "currency",
+    "gross",
+    "experience"
+  ],
+  "extra_file": {
+    "name": "submission_miss_cap99_2026-10-17.csv",
+    "columns": [
+      "mint",
+      "tp"
+    ],
+    "rows": 443,
+    "used_in_analysis": false,
+    "reason": "Нет идентификаторов вакансий, навыков, регионов и зарплат"
+  },
+  "archive_policy": "Аудит 10000 JSON по ID, названию и навыкам; при пересечении берётся CSV",
+  "inputs": [
+    {
+      "name": "it_vacancies_2024.csv",
+      "key": "raw/it_vacancies_2024.csv",
+      "bytes": 847619384,
+      "sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+      "etag": "\"5d93ef0c42e6ce7b734cc44a89c4f228-102\""
+    },
+    {
+      "name": "hh.zip",
+      "key": "raw/hh.zip",
+      "bytes": 23161634,
+      "sha256": "83e3b729d82da71b74b03ba3d35c27ff0490b885174467e574f05167dc7aa86c",
+      "etag": "\"f29e84feddb5524098b2d08f727183ea-3\""
+    },
+    {
+      "name": "submission_miss_cap99_2026-10-17.csv",
+      "key": "raw/submission_miss_cap99_2026-10-17.csv",
+      "bytes": 20716,
+      "sha256": "442bace0a73a6ba67b5edf2c8fd02d0ce9f4ca72e25552fb21518112ec461ec1",
+      "etag": "\"4057034f5cc60af9d587f819755d8887\""
+    },
+    {
+      "name": "vacancies.csv",
+      "key": "bronze/vacancies.csv",
+      "bytes": 65706352,
+      "sha256": "0572992aecb502f26255f5bc5b8bf7d91bdb5647616f6eb28ef4160cabeaf807",
+      "etag": "\"e68cd8e4999a3479d8f394366dec6aaf-8\""
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "area": "Москва",
+    "vacancies": 1762,
+    "with_skills": 1334,
+    "n_net": 348,
+    "median_net": 200000.0,
+    "mean_net": 219200.43103448275,
+    "q25_net": 160000.0,
+    "q75_net": 250000.0,
+    "n_gross": 140,
+    "median_gross": 200000.0,
+    "mean_stack": 4.237797956867197,
+    "singles_occurrences": 7467,
+    "pairs_occurrences": 25414,
+    "triples_occurrences": 72448,
+    "salary_coverage_pct": 19.750283768444948
+  },
+  {
+    "area": "Санкт-Петербург",
+    "vacancies": 751,
+    "with_skills": 590,
+    "n_net": 182,
+    "median_net": 155000.0,
+    "mean_net": 176382.07692307694,
+    "q25_net": 130000.0,
+    "q75_net": 205000.0,
+    "n_gross": 81,
+    "median_gross": 197500.0,
+    "mean_stack": 4.2942743009320905,
+    "singles_occurrences": 3225,
+    "pairs_occurrences": 10343,
+    "triples_occurrences": 28338,
+    "salary_coverage_pct": 24.234354194407455
+  },
+  {
+    "area": "Новосибирск",
+    "vacancies": 178,
+    "with_skills": 144,
+    "n_net": 56,
+    "median_net": 150000.0,
+    "mean_net": 166250.0,
+    "q25_net": 107500.0,
+    "q75_net": 221250.0,
+    "n_gross": 7,
+    "median_gross": 250000.0,
+    "mean_stack": 4.140449438202247,
+    "singles_occurrences": 737,
+    "pairs_occurrences": 2476,
+    "triples_occurrences": 8739,
+    "salary_coverage_pct": 31.46067415730337
+  }
+]

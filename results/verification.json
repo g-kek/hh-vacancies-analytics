@@ -1,0 +1,50 @@
+[
+  {
+    "cap": 5,
+    "all_keys_equal": true,
+    "sha256": "229e8cc72976b336f4d7d12a768758f7f9ce01d9e562b5413da96a19b5259759",
+    "unique_keys": 12532,
+    "stats": {
+      "rows_read": 229388,
+      "vacancies": 3847,
+      "vacancies_with_skills": 2969,
+      "truncated_vacancies": 1206,
+      "emitted_1": 12200,
+      "emitted_2": 21183,
+      "emitted_3": 19184,
+      "chunks": 115
+    }
+  },
+  {
+    "cap": 10,
+    "all_keys_equal": true,
+    "sha256": "3269cb7dba8c3b4c4cf88a6dc154f69eeed7ee087a5a6dce57fcea8adcb8e6f2",
+    "unique_keys": 47891,
+    "stats": {
+      "rows_read": 229388,
+      "vacancies": 3847,
+      "vacancies_with_skills": 2969,
+      "truncated_vacancies": 268,
+      "emitted_1": 15699,
+      "emitted_2": 43588,
+      "emitted_3": 82867,
+      "chunks": 115
+    }
+  },
+  {
+    "cap": 20,
+    "all_keys_equal": true,
+    "sha256": "39ff3de5389bcf33af6acdb491cae5ca7c768d980941a566ac6c60dbccfbd803",
+    "unique_keys": 92111,
+    "stats": {
+      "rows_read": 229388,
+      "vacancies": 3847,
+      "vacancies_with_skills": 2969,
+      "truncated_vacancies": 23,
+      "emitted_1": 16882,
+      "emitted_2": 58598,
+      "emitted_3": 174312,
+      "chunks": 115
+    }
+  }
+]

@@ -1,0 +1,85 @@
+$ docker ps --filter name=hh-rustfs
+hh-rustfs | rustfs/rustfs | Up 54 minutes | 127.0.0.1:9000-9001->9000-9001/tcp
+
+$ curl -fsS http://127.0.0.1:9000/health
+{"status": "ok", "service": "rustfs-endpoint", "timestamp": "2026-10-19T15:45:04.828986504Z[Etc/Unknown]", "version": "1.0.1"}
+
+$ hh evidence
+
+s3://hh-lake/bronze/vacancies.csv  65706352 bytes
+
+s3://hh-lake/metadata/data_manifest.json  2601 bytes
+
+s3://hh-lake/raw/hh.zip  23161634 bytes
+
+s3://hh-lake/raw/it_vacancies_2024.csv  847619384 bytes
+
+s3://hh-lake/raw/submission_miss_cap99_2026-10-17.csv  20716 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/overview.json  343 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/regions_skills.csv  6982 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/regions_skills.json  23913 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/regions_summary.csv  609 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/regions_summary.json  1356 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/salary_additions_all.parquet  1136708 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/salary_effects.csv  4008 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/salary_effects.json  14855 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/salary_outliers.csv  33 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/sample.json  2169 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/selected_vacancies.csv  478925 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis/stack_distribution.csv  197 bytes
+
+s3://hh-lake/results/06-c-cpp/analysis_validation.json  591 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/duckdb_k10.json  5581471 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/duckdb_k20.json  11357303 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/duckdb_k5.json  1355129 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_baseline_k10.json  5581581 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_baseline_k20.json  11357413 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_baseline_k5.json  1355237 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_combined_k10.json  5581581 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_combined_k20.json  11357413 bytes
+
+s3://hh-lake/results/06-c-cpp/counts/mapreduce_combined_k5.json  1355238 bytes
+
+s3://hh-lake/results/06-c-cpp/deliverables_check.log  157 bytes
+
+s3://hh-lake/results/06-c-cpp/failure_test.json  629 bytes
+
+s3://hh-lake/results/06-c-cpp/infrastructure.json  8913 bytes
+
+s3://hh-lake/results/06-c-cpp/profiling/benchmark.log  7483 bytes
+
+s3://hh-lake/results/06-c-cpp/profiling/benchmark_environment.json  2528 bytes
+
+s3://hh-lake/results/06-c-cpp/profiling/benchmark_runs.csv  3673 bytes
+
+s3://hh-lake/results/06-c-cpp/profiling/benchmark_summary.csv  1110 bytes
+
+s3://hh-lake/results/06-c-cpp/profiling/benchmark_summary.json  2721 bytes
+
+s3://hh-lake/results/06-c-cpp/report.pdf  200763 bytes
+
+s3://hh-lake/results/06-c-cpp/validation.md  4244 bytes
+
+s3://hh-lake/results/06-c-cpp/verification.json  1209 bytes
+
+Roundtrip checks: 3

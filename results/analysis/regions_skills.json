@@ -1,0 +1,1262 @@
+[
+  {
+    "area": "Москва",
+    "combo": [
+      "c++"
+    ],
+    "skill_order": 1,
+    "frequency": 833,
+    "n_net": 173,
+    "median_net": 225000.0,
+    "rank": 1,
+    "vacancies_in_region": 1762,
+    "share_pct": 47.27582292849035
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "linux"
+    ],
+    "skill_order": 1,
+    "frequency": 704,
+    "n_net": 149,
+    "median_net": 225000.0,
+    "rank": 2,
+    "vacancies_in_region": 1762,
+    "share_pct": 39.954597048808175
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c/c++"
+    ],
+    "skill_order": 1,
+    "frequency": 382,
+    "n_net": 100,
+    "median_net": 200000.0,
+    "rank": 3,
+    "vacancies_in_region": 1762,
+    "share_pct": 21.679909194097615
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "git"
+    ],
+    "skill_order": 1,
+    "frequency": 346,
+    "n_net": 83,
+    "median_net": 205000.0,
+    "rank": 4,
+    "vacancies_in_region": 1762,
+    "share_pct": 19.63677639046538
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "qt"
+    ],
+    "skill_order": 1,
+    "frequency": 275,
+    "n_net": 80,
+    "median_net": 177500.0,
+    "rank": 5,
+    "vacancies_in_region": 1762,
+    "share_pct": 15.607264472190693
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "stl"
+    ],
+    "skill_order": 1,
+    "frequency": 183,
+    "n_net": 28,
+    "median_net": 200000.0,
+    "rank": 6,
+    "vacancies_in_region": 1762,
+    "share_pct": 10.385925085130534
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "python"
+    ],
+    "skill_order": 1,
+    "frequency": 173,
+    "n_net": 36,
+    "median_net": 222500.0,
+    "rank": 7,
+    "vacancies_in_region": 1762,
+    "share_pct": 9.81838819523269
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "sql"
+    ],
+    "skill_order": 1,
+    "frequency": 141,
+    "n_net": 42,
+    "median_net": 182500.0,
+    "rank": 8,
+    "vacancies_in_region": 1762,
+    "share_pct": 8.00227014755959
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "ооп"
+    ],
+    "skill_order": 1,
+    "frequency": 138,
+    "n_net": 34,
+    "median_net": 225000.0,
+    "rank": 9,
+    "vacancies_in_region": 1762,
+    "share_pct": 7.832009080590239
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "postgresql"
+    ],
+    "skill_order": 1,
+    "frequency": 129,
+    "n_net": 31,
+    "median_net": 180000.0,
+    "rank": 10,
+    "vacancies_in_region": 1762,
+    "share_pct": 7.32122587968218
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 398,
+    "n_net": 98,
+    "median_net": 225000.0,
+    "rank": 1,
+    "vacancies_in_region": 1762,
+    "share_pct": 22.587968217934165
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 254,
+    "n_net": 57,
+    "median_net": 225000.0,
+    "rank": 2,
+    "vacancies_in_region": 1762,
+    "share_pct": 14.415437003405222
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "git",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 244,
+    "n_net": 55,
+    "median_net": 225000.0,
+    "rank": 3,
+    "vacancies_in_region": 1762,
+    "share_pct": 13.847900113507379
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 217,
+    "n_net": 60,
+    "median_net": 200000.0,
+    "rank": 4,
+    "vacancies_in_region": 1762,
+    "share_pct": 12.3155505107832
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 205,
+    "n_net": 48,
+    "median_net": 222500.0,
+    "rank": 5,
+    "vacancies_in_region": 1762,
+    "share_pct": 11.63450624290579
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "stl"
+    ],
+    "skill_order": 2,
+    "frequency": 143,
+    "n_net": 19,
+    "median_net": 240000.0,
+    "rank": 6,
+    "vacancies_in_region": 1762,
+    "share_pct": 8.11577752553916
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "linux",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 141,
+    "n_net": 39,
+    "median_net": 175000.0,
+    "rank": 7,
+    "vacancies_in_region": 1762,
+    "share_pct": 8.00227014755959
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "python"
+    ],
+    "skill_order": 2,
+    "frequency": 113,
+    "n_net": 22,
+    "median_net": 237500.0,
+    "rank": 8,
+    "vacancies_in_region": 1762,
+    "share_pct": 6.41316685584563
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c/c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 110,
+    "n_net": 29,
+    "median_net": 200000.0,
+    "rank": 9,
+    "vacancies_in_region": 1762,
+    "share_pct": 6.242905788876277
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "linux",
+      "python"
+    ],
+    "skill_order": 2,
+    "frequency": 108,
+    "n_net": 24,
+    "median_net": 250000.0,
+    "rank": 10,
+    "vacancies_in_region": 1762,
+    "share_pct": 6.129398410896708
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 136,
+    "n_net": 34,
+    "median_net": 212500.0,
+    "rank": 1,
+    "vacancies_in_region": 1762,
+    "share_pct": 7.71850170261067
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "linux",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 107,
+    "n_net": 31,
+    "median_net": 200000.0,
+    "rank": 2,
+    "vacancies_in_region": 1762,
+    "share_pct": 6.072644721906924
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c/c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 82,
+    "n_net": 21,
+    "median_net": 210000.0,
+    "rank": 3,
+    "vacancies_in_region": 1762,
+    "share_pct": 4.6538024971623155
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "linux",
+      "stl"
+    ],
+    "skill_order": 3,
+    "frequency": 76,
+    "n_net": 11,
+    "median_net": 250000.0,
+    "rank": 4,
+    "vacancies_in_region": 1762,
+    "share_pct": 4.313280363223609
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "git",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 73,
+    "n_net": 22,
+    "median_net": 155000.0,
+    "rank": 5,
+    "vacancies_in_region": 1762,
+    "share_pct": 4.1430192962542565
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "linux",
+      "python"
+    ],
+    "skill_order": 3,
+    "frequency": 69,
+    "n_net": 16,
+    "median_net": 250000.0,
+    "rank": 6,
+    "vacancies_in_region": 1762,
+    "share_pct": 3.9160045402951194
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "git",
+      "linux",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 69,
+    "n_net": 24,
+    "median_net": 155000.0,
+    "rank": 7,
+    "vacancies_in_region": 1762,
+    "share_pct": 3.9160045402951194
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "linux",
+      "postgresql"
+    ],
+    "skill_order": 3,
+    "frequency": 61,
+    "n_net": 20,
+    "median_net": 225000.0,
+    "rank": 8,
+    "vacancies_in_region": 1762,
+    "share_pct": 3.4619750283768447
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "boost",
+      "c++",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 57,
+    "n_net": 13,
+    "median_net": 240000.0,
+    "rank": 9,
+    "vacancies_in_region": 1762,
+    "share_pct": 3.234960272417707
+  },
+  {
+    "area": "Москва",
+    "combo": [
+      "c++",
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 55,
+    "n_net": 17,
+    "median_net": 225000.0,
+    "rank": 10,
+    "vacancies_in_region": 1762,
+    "share_pct": 3.1214528944381383
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++"
+    ],
+    "skill_order": 1,
+    "frequency": 104,
+    "n_net": 37,
+    "median_net": 107500.0,
+    "rank": 1,
+    "vacancies_in_region": 178,
+    "share_pct": 58.42696629213483
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "linux"
+    ],
+    "skill_order": 1,
+    "frequency": 68,
+    "n_net": 20,
+    "median_net": 190000.0,
+    "rank": 2,
+    "vacancies_in_region": 178,
+    "share_pct": 38.20224719101124
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++"
+    ],
+    "skill_order": 1,
+    "frequency": 42,
+    "n_net": 15,
+    "median_net": 165000.0,
+    "rank": 3,
+    "vacancies_in_region": 178,
+    "share_pct": 23.59550561797753
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "git"
+    ],
+    "skill_order": 1,
+    "frequency": 42,
+    "n_net": 15,
+    "median_net": 200000.0,
+    "rank": 4,
+    "vacancies_in_region": 178,
+    "share_pct": 23.59550561797753
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "tcp/ip"
+    ],
+    "skill_order": 1,
+    "frequency": 21,
+    "n_net": 7,
+    "median_net": 180000.0,
+    "rank": 5,
+    "vacancies_in_region": 178,
+    "share_pct": 11.797752808988765
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "python"
+    ],
+    "skill_order": 1,
+    "frequency": 15,
+    "n_net": 4,
+    "median_net": 225000.0,
+    "rank": 6,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "qt"
+    ],
+    "skill_order": 1,
+    "frequency": 15,
+    "n_net": 5,
+    "median_net": 150000.0,
+    "rank": 7,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "postgresql"
+    ],
+    "skill_order": 1,
+    "frequency": 14,
+    "n_net": 3,
+    "median_net": 150000.0,
+    "rank": 8,
+    "vacancies_in_region": 178,
+    "share_pct": 7.865168539325842
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "stl"
+    ],
+    "skill_order": 1,
+    "frequency": 14,
+    "n_net": 1,
+    "median_net": 275000.0,
+    "rank": 9,
+    "vacancies_in_region": 178,
+    "share_pct": 7.865168539325842
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "boost"
+    ],
+    "skill_order": 1,
+    "frequency": 13,
+    "n_net": 3,
+    "median_net": 165000.0,
+    "rank": 10,
+    "vacancies_in_region": 178,
+    "share_pct": 7.303370786516854
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 35,
+    "n_net": 9,
+    "median_net": 180000.0,
+    "rank": 1,
+    "vacancies_in_region": 178,
+    "share_pct": 19.662921348314608
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 33,
+    "n_net": 10,
+    "median_net": 200000.0,
+    "rank": 2,
+    "vacancies_in_region": 178,
+    "share_pct": 18.53932584269663
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "git",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 32,
+    "n_net": 11,
+    "median_net": 200000.0,
+    "rank": 3,
+    "vacancies_in_region": 178,
+    "share_pct": 17.97752808988764
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 24,
+    "n_net": 10,
+    "median_net": 180000.0,
+    "rank": 4,
+    "vacancies_in_region": 178,
+    "share_pct": 13.48314606741573
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "linux",
+      "tcp/ip"
+    ],
+    "skill_order": 2,
+    "frequency": 20,
+    "n_net": 7,
+    "median_net": 180000.0,
+    "rank": 5,
+    "vacancies_in_region": 178,
+    "share_pct": 11.235955056179776
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 16,
+    "n_net": 6,
+    "median_net": 225000.0,
+    "rank": 6,
+    "vacancies_in_region": 178,
+    "share_pct": 8.98876404494382
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "git",
+      "tcp/ip"
+    ],
+    "skill_order": 2,
+    "frequency": 16,
+    "n_net": 4,
+    "median_net": 180000.0,
+    "rank": 7,
+    "vacancies_in_region": 178,
+    "share_pct": 8.98876404494382
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "c/c++"
+    ],
+    "skill_order": 2,
+    "frequency": 15,
+    "n_net": 6,
+    "median_net": 162500.0,
+    "rank": 8,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 15,
+    "n_net": 5,
+    "median_net": 150000.0,
+    "rank": 9,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "linux",
+      "python"
+    ],
+    "skill_order": 2,
+    "frequency": 13,
+    "n_net": 4,
+    "median_net": 225000.0,
+    "rank": 10,
+    "vacancies_in_region": 178,
+    "share_pct": 7.303370786516854
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "git",
+      "linux",
+      "tcp/ip"
+    ],
+    "skill_order": 3,
+    "frequency": 16,
+    "n_net": 4,
+    "median_net": 180000.0,
+    "rank": 1,
+    "vacancies_in_region": 178,
+    "share_pct": 8.98876404494382
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 15,
+    "n_net": 6,
+    "median_net": 180000.0,
+    "rank": 2,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 15,
+    "n_net": 5,
+    "median_net": 250000.0,
+    "rank": 3,
+    "vacancies_in_region": 178,
+    "share_pct": 8.426966292134832
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++",
+      "linux",
+      "tcp/ip"
+    ],
+    "skill_order": 3,
+    "frequency": 11,
+    "n_net": 1,
+    "median_net": 175000.0,
+    "rank": 4,
+    "vacancies_in_region": 178,
+    "share_pct": 6.179775280898877
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 9,
+    "n_net": 3,
+    "median_net": 180000.0,
+    "rank": 5,
+    "vacancies_in_region": 178,
+    "share_pct": 5.056179775280899
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 9,
+    "n_net": 1,
+    "median_net": 200000.0,
+    "rank": 6,
+    "vacancies_in_region": 178,
+    "share_pct": 5.056179775280899
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "docker",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 9,
+    "n_net": 2,
+    "median_net": 186250.0,
+    "rank": 7,
+    "vacancies_in_region": 178,
+    "share_pct": 5.056179775280899
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c++",
+      "linux",
+      "tcp/ip"
+    ],
+    "skill_order": 3,
+    "frequency": 9,
+    "n_net": 6,
+    "median_net": 200000.0,
+    "rank": 8,
+    "vacancies_in_region": 178,
+    "share_pct": 5.056179775280899
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "c/c++",
+      "git",
+      "tcp/ip"
+    ],
+    "skill_order": 3,
+    "frequency": 9,
+    "n_net": 0,
+    "median_net": null,
+    "rank": 9,
+    "vacancies_in_region": 178,
+    "share_pct": 5.056179775280899
+  },
+  {
+    "area": "Новосибирск",
+    "combo": [
+      "bash",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 8,
+    "n_net": 2,
+    "median_net": 250000.0,
+    "rank": 10,
+    "vacancies_in_region": 178,
+    "share_pct": 4.49438202247191
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++"
+    ],
+    "skill_order": 1,
+    "frequency": 369,
+    "n_net": 75,
+    "median_net": 150000.0,
+    "rank": 1,
+    "vacancies_in_region": 751,
+    "share_pct": 49.134487350199734
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "linux"
+    ],
+    "skill_order": 1,
+    "frequency": 304,
+    "n_net": 80,
+    "median_net": 150000.0,
+    "rank": 2,
+    "vacancies_in_region": 751,
+    "share_pct": 40.47936085219707
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c/c++"
+    ],
+    "skill_order": 1,
+    "frequency": 188,
+    "n_net": 51,
+    "median_net": 170000.0,
+    "rank": 3,
+    "vacancies_in_region": 751,
+    "share_pct": 25.03328894806924
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "git"
+    ],
+    "skill_order": 1,
+    "frequency": 156,
+    "n_net": 44,
+    "median_net": 172500.0,
+    "rank": 4,
+    "vacancies_in_region": 751,
+    "share_pct": 20.77230359520639
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "qt"
+    ],
+    "skill_order": 1,
+    "frequency": 135,
+    "n_net": 38,
+    "median_net": 140000.0,
+    "rank": 5,
+    "vacancies_in_region": 751,
+    "share_pct": 17.976031957390145
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "stl"
+    ],
+    "skill_order": 1,
+    "frequency": 86,
+    "n_net": 13,
+    "median_net": 200000.0,
+    "rank": 6,
+    "vacancies_in_region": 751,
+    "share_pct": 11.451398135818907
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "ооп"
+    ],
+    "skill_order": 1,
+    "frequency": 62,
+    "n_net": 15,
+    "median_net": 175000.0,
+    "rank": 7,
+    "vacancies_in_region": 751,
+    "share_pct": 8.255659121171771
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "python"
+    ],
+    "skill_order": 1,
+    "frequency": 60,
+    "n_net": 14,
+    "median_net": 150000.0,
+    "rank": 8,
+    "vacancies_in_region": 751,
+    "share_pct": 7.989347536617843
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "sql"
+    ],
+    "skill_order": 1,
+    "frequency": 57,
+    "n_net": 12,
+    "median_net": 205000.0,
+    "rank": 9,
+    "vacancies_in_region": 751,
+    "share_pct": 7.589880159786951
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "cmake"
+    ],
+    "skill_order": 1,
+    "frequency": 44,
+    "n_net": 13,
+    "median_net": 200000.0,
+    "rank": 10,
+    "vacancies_in_region": 751,
+    "share_pct": 5.858854860186418
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 173,
+    "n_net": 45,
+    "median_net": 160000.0,
+    "rank": 1,
+    "vacancies_in_region": 751,
+    "share_pct": 23.03595206391478
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 122,
+    "n_net": 29,
+    "median_net": 150000.0,
+    "rank": 2,
+    "vacancies_in_region": 751,
+    "share_pct": 16.245006657789613
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "git",
+      "linux"
+    ],
+    "skill_order": 2,
+    "frequency": 109,
+    "n_net": 33,
+    "median_net": 170000.0,
+    "rank": 3,
+    "vacancies_in_region": 751,
+    "share_pct": 14.513981358189081
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 103,
+    "n_net": 31,
+    "median_net": 140000.0,
+    "rank": 4,
+    "vacancies_in_region": 751,
+    "share_pct": 13.715046604527297
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "linux",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 79,
+    "n_net": 27,
+    "median_net": 140000.0,
+    "rank": 5,
+    "vacancies_in_region": 751,
+    "share_pct": 10.51930758988016
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 78,
+    "n_net": 19,
+    "median_net": 200000.0,
+    "rank": 6,
+    "vacancies_in_region": 751,
+    "share_pct": 10.386151797603196
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "stl"
+    ],
+    "skill_order": 2,
+    "frequency": 73,
+    "n_net": 11,
+    "median_net": 140000.0,
+    "rank": 7,
+    "vacancies_in_region": 751,
+    "share_pct": 9.720372836218376
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c/c++",
+      "git"
+    ],
+    "skill_order": 2,
+    "frequency": 66,
+    "n_net": 18,
+    "median_net": 150000.0,
+    "rank": 8,
+    "vacancies_in_region": 751,
+    "share_pct": 8.788282290279627
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "git",
+      "qt"
+    ],
+    "skill_order": 2,
+    "frequency": 49,
+    "n_net": 13,
+    "median_net": 140000.0,
+    "rank": 9,
+    "vacancies_in_region": 751,
+    "share_pct": 6.524633821571238
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "linux",
+      "stl"
+    ],
+    "skill_order": 2,
+    "frequency": 49,
+    "n_net": 8,
+    "median_net": 200000.0,
+    "rank": 10,
+    "vacancies_in_region": 751,
+    "share_pct": 6.524633821571238
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 55,
+    "n_net": 17,
+    "median_net": 200000.0,
+    "rank": 1,
+    "vacancies_in_region": 751,
+    "share_pct": 7.323568575233023
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "linux",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 55,
+    "n_net": 21,
+    "median_net": 140000.0,
+    "rank": 2,
+    "vacancies_in_region": 751,
+    "share_pct": 7.323568575233023
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c/c++",
+      "git",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 47,
+    "n_net": 12,
+    "median_net": 150000.0,
+    "rank": 3,
+    "vacancies_in_region": 751,
+    "share_pct": 6.25832223701731
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "linux",
+      "stl"
+    ],
+    "skill_order": 3,
+    "frequency": 40,
+    "n_net": 6,
+    "median_net": 200000.0,
+    "rank": 4,
+    "vacancies_in_region": 751,
+    "share_pct": 5.326231691078562
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "git",
+      "linux",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 37,
+    "n_net": 11,
+    "median_net": 150000.0,
+    "rank": 5,
+    "vacancies_in_region": 751,
+    "share_pct": 4.92676431424767
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "git",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 32,
+    "n_net": 10,
+    "median_net": 145000.0,
+    "rank": 6,
+    "vacancies_in_region": 751,
+    "share_pct": 4.26098535286285
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "c/c++",
+      "linux"
+    ],
+    "skill_order": 3,
+    "frequency": 29,
+    "n_net": 3,
+    "median_net": 140000.0,
+    "rank": 7,
+    "vacancies_in_region": 751,
+    "share_pct": 3.8615179760319576
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c/c++",
+      "linux",
+      "qt"
+    ],
+    "skill_order": 3,
+    "frequency": 29,
+    "n_net": 5,
+    "median_net": 140000.0,
+    "rank": 8,
+    "vacancies_in_region": 751,
+    "share_pct": 3.8615179760319576
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "linux",
+      "tcp/ip"
+    ],
+    "skill_order": 3,
+    "frequency": 27,
+    "n_net": 9,
+    "median_net": 140000.0,
+    "rank": 9,
+    "vacancies_in_region": 751,
+    "share_pct": 3.5952063914780292
+  },
+  {
+    "area": "Санкт-Петербург",
+    "combo": [
+      "c++",
+      "linux",
+      "sql"
+    ],
+    "skill_order": 3,
+    "frequency": 26,
+    "n_net": 11,
+    "median_net": 205000.0,
+    "rank": 10,
+    "vacancies_in_region": 751,
+    "share_pct": 3.4620505992010653
+  }
+]
