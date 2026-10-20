@@ -2,6 +2,8 @@
 
 Вариант 6. Подсчёт навыков, пар и троек через MapReduce и DuckDB из RustFS, сравнение времени и памяти, анализ зарплат и регионов.
 
+Отчёт: [reports/report.pdf](reports/report.pdf)
+
 Для запуска нужны Python 3.12, uv и Docker. Скопировать `.env.example` в `.env` и задать `S3_SECRET_KEY`.
 
 ```bash
