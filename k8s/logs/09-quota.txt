@@ -1,0 +1,36 @@
+namespace/hw5-quota created
+resourcequota/hw5-budget created
+resourcequota/hw5-budget condition met
+job.batch/hh-quota-first created
+pod/hh-quota-first-k5r4q condition met
+Name:          hw5-budget
+Namespace:     hw5-quota
+Resource       Used  Hard
+--------       ----  ----
+limits.memory  96Mi  256Mi
+pods           1     2
+requests.cpu   600m  1
+job.batch/hh-quota-second created
+LAST SEEN   TYPE      REASON         OBJECT                MESSAGE
+0s          Warning   FailedCreate   job/hh-quota-second   Error creating: pods "hh-quota-second-stmxr" is forbidden: exceeded quota: hw5-budget, requested: requests.cpu=600m, used: requests.cpu=600m, limited: requests.cpu=1
+NAME              STATUS    COMPLETIONS   DURATION   AGE
+hh-quota-first    Running   0/1           1s         1s
+hh-quota-second   Running   0/1           0s         0s
+No resources found in hw5-quota namespace.
+job.batch/hh-quota-first condition met
+job.batch/hh-quota-second condition met
+NAME                        STATUS     COMPLETIONS   DURATION   AGE
+job.batch/hh-quota-first    Complete   1/1           38s        69s
+job.batch/hh-quota-second   Complete   1/1           68s        68s
+
+NAME                        READY   STATUS      RESTARTS   AGE
+pod/hh-quota-first-k5r4q    0/1     Completed   0          69s
+pod/hh-quota-second-2kz7z   0/1     Completed   0          5s
+Name:          hw5-budget
+Namespace:     hw5-quota
+Resource       Used  Hard
+--------       ----  ----
+limits.memory  0     256Mi
+pods           0     2
+requests.cpu   0     1
+2026-11-24T20:02:56.320748470Z Pod admitted and running

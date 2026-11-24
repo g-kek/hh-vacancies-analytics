@@ -1,0 +1,18 @@
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                                                                                            SELECTOR
+deployment.apps/rustfs   1/1     1            1           93s   rustfs       docker.io/rustfs/rustfs@sha256:1803faef57627e2d9c2e7d89d655d712ddded5389040054987163043fecb6a3c   app=rustfs
+
+NAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE   SELECTOR
+service/rustfs   ClusterIP   10.96.177.238   <none>        9000/TCP   93s   app=rustfs
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/rustfs-data   Bound    pvc-5435fe6e-dbd7-42bb-948e-2414a0104ca4   1Gi        RWO            standard       <unset>                 93s   Filesystem
+rustfs 1.0.1
+build time   : 2026-10-03 03:14:05 +00:00
+build profile: release
+build os     : linux-aarch64
+rust version : rustc 1.99.0 (b940084d7 2026-09-28)
+rust channel : stable-aarch64-unknown-linux-gnu
+git branch   :
+git commit   : 6de965ae3c965a78ff819fbcd7acd4aa44177d92
+git tag      : 1.0.1
+git status   :

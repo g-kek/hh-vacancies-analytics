@@ -1,0 +1,31 @@
+job.batch/hh-split created
+job.batch/hh-split condition met
+2026-11-24T20:02:49.982879967Z {"stage": "split", "index": 0, "rows": 60000, "key": "hw5/06-c-cpp/k20/input/0.csv", "bytes": 17204242, "sha256": "175c8f55f754d82c6926cbb3fc894ac332d757e7e337b14e28193d2f6c3cc1fe", "etag": "\"29096f4bc49060beadb40ee6e9638e47-3\""}
+2026-11-24T20:02:50.656441634Z {"stage": "split", "index": 1, "rows": 60000, "key": "hw5/06-c-cpp/k20/input/1.csv", "bytes": 16650572, "sha256": "4bdba9fb85c14689b53dcde842f97b9fa9d90cba54da1063e1167bc9664a1f60", "etag": "\"fb16631dfa1713a5a04b1e85bf036c70-2\""}
+2026-11-24T20:02:51.331555968Z {"stage": "split", "index": 2, "rows": 60000, "key": "hw5/06-c-cpp/k20/input/2.csv", "bytes": 17334322, "sha256": "f965b6232f7d12a3d36c9a5a7808d5aaf3b73332dd42e2dd9344ec3a4554d468", "etag": "\"5764d697a5a2b2b4d7c908c78a6acf5b-3\""}
+2026-11-24T20:02:51.884297926Z {"stage": "split", "index": 3, "rows": 49388, "key": "hw5/06-c-cpp/k20/input/3.csv", "bytes": 14517576, "sha256": "e67bc066aa403ed5205125af6b93be86a390b1384cbe1f5ed3041cbef43122f3", "etag": "\"7c520a04f0efa5b2f060b37dd829ccbe-2\""}
+job.batch/hh-map created
+job.batch/hh-map condition met
+JOB      PARALLELISM   EXPECTED   COMPLETED_INDEXES
+hh-map   4             4          0-3
+POD              INDEX   STARTED                FINISHED
+hh-map-0-wfb6p   0       2026-11-24T20:02:54Z   2026-11-24T20:02:55Z
+hh-map-1-z6tsw   1       2026-11-24T20:02:54Z   2026-11-24T20:02:55Z
+hh-map-2-cr9xr   2       2026-11-24T20:02:54Z   2026-11-24T20:02:55Z
+hh-map-3-66r94   3       2026-11-24T20:02:54Z   2026-11-24T20:02:55Z
+pod/hh-map-0-wfb6p
+2026-11-24T20:02:55.200702803Z {"stage": "map_start", "index": 0, "input_key": "hw5/06-c-cpp/k20/input/0.csv"}
+2026-11-24T20:02:55.811378845Z {"stage": "map_complete", "index": 0, "key": "hw5/06-c-cpp/k20/map/0.json", "rows_read": 60000, "vacancies": 964, "vacancies_with_skills": 753, "truncated_vacancies": 6, "emitted_1": 4316, "emitted_2": 14935, "emitted_3": 44619}
+pod/hh-map-1-z6tsw
+2026-11-24T20:02:55.193732636Z {"stage": "map_start", "index": 1, "input_key": "hw5/06-c-cpp/k20/input/1.csv"}
+2026-11-24T20:02:55.774233345Z {"stage": "map_complete", "index": 1, "key": "hw5/06-c-cpp/k20/map/1.json", "rows_read": 60000, "vacancies": 907, "vacancies_with_skills": 667, "truncated_vacancies": 4, "emitted_1": 3684, "emitted_2": 12285, "emitted_3": 34361}
+pod/hh-map-2-cr9xr
+2026-11-24T20:02:55.215530678Z {"stage": "map_start", "index": 2, "input_key": "hw5/06-c-cpp/k20/input/2.csv"}
+2026-11-24T20:02:55.877079345Z {"stage": "map_complete", "index": 2, "key": "hw5/06-c-cpp/k20/map/2.json", "rows_read": 60000, "vacancies": 1039, "vacancies_with_skills": 811, "truncated_vacancies": 6, "emitted_1": 4503, "emitted_2": 15750, "emitted_3": 49135}
+pod/hh-map-3-66r94
+2026-11-24T20:02:55.200945761Z {"stage": "map_start", "index": 3, "input_key": "hw5/06-c-cpp/k20/input/3.csv"}
+2026-11-24T20:02:55.774348470Z {"stage": "map_complete", "index": 3, "key": "hw5/06-c-cpp/k20/map/3.json", "rows_read": 49388, "vacancies": 937, "vacancies_with_skills": 738, "truncated_vacancies": 7, "emitted_1": 4379, "emitted_2": 15628, "emitted_3": 46197}
+job.batch/hh-reduce created
+job.batch/hh-reduce condition met
+2026-11-24T20:02:59.228959597Z {"stage": "reduce_complete", "key": "hw5/06-c-cpp/k20/result.json", "shards": 4, "rows_read": 229388, "vacancies": 3847, "vacancies_with_skills": 2969, "truncated_vacancies": 23, "emitted_1": 16882, "emitted_2": 58598, "emitted_3": 174312}
+{"stage": "verify_complete", "sha256": "39ff3de5389bcf33af6acdb491cae5ca7c768d980941a566ac6c60dbccfbd803", "rows": 229388}

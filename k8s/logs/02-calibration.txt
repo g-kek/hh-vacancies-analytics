@@ -1,0 +1,7 @@
+job.batch/hh-calibration created
+job.batch/hh-calibration condition met
+POD                    PHASE       REASON      EXIT   CPU_REQUEST   CPU_LIMIT   MEM_REQUEST   MEM_LIMIT
+hh-calibration-t7j6p   Succeeded   Completed   0      500m          2           32Mi          512Mi
+2026-11-24T20:01:55.265515928Z {"stage": "count_start", "cap": 20, "hold_seconds": 0}
+2026-11-24T20:01:57.506694804Z MapReduce combined K=20 вакансий 3847
+2026-11-24T20:01:57.518039054Z {"stage": "count_complete", "rows": 229388, "pairs": 58598, "top10": [{"skills": ["c++", "linux"], "count": 885}, {"skills": ["c/c++", "linux"], "count": 603}, {"skills": ["git", "linux"], "count": 560}, {"skills": ["c++", "git"], "count": 526}, {"skills": ["c++", "qt"], "count": 514}, {"skills": ["c++", "stl"], "count": 408}, {"skills": ["linux", "qt"], "count": 329}, {"skills": ["c++", "python"], "count": 283}, {"skills": ["c++", "ооп"], "count": 270}, {"skills": ["git", "qt"], "count": 270}], "memory_peak_bytes": 187191296}

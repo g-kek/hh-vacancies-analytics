@@ -1,0 +1,89 @@
+{
+  "variant": "06-c-cpp",
+  "cap": 20,
+  "all_counts_equal": true,
+  "top10_equal": true,
+  "sha256": "39ff3de5389bcf33af6acdb491cae5ca7c768d980941a566ac6c60dbccfbd803",
+  "unique_combinations": 92111,
+  "stats": {
+    "rows_read": 229388,
+    "vacancies": 3847,
+    "vacancies_with_skills": 2969,
+    "truncated_vacancies": 23,
+    "emitted_1": 16882,
+    "emitted_2": 58598,
+    "emitted_3": 174312
+  },
+  "top10": [
+    {
+      "skills": [
+        "c++",
+        "linux"
+      ],
+      "count": 885
+    },
+    {
+      "skills": [
+        "c/c++",
+        "linux"
+      ],
+      "count": 603
+    },
+    {
+      "skills": [
+        "git",
+        "linux"
+      ],
+      "count": 560
+    },
+    {
+      "skills": [
+        "c++",
+        "git"
+      ],
+      "count": 526
+    },
+    {
+      "skills": [
+        "c++",
+        "qt"
+      ],
+      "count": 514
+    },
+    {
+      "skills": [
+        "c++",
+        "stl"
+      ],
+      "count": 408
+    },
+    {
+      "skills": [
+        "linux",
+        "qt"
+      ],
+      "count": 329
+    },
+    {
+      "skills": [
+        "c++",
+        "python"
+      ],
+      "count": 283
+    },
+    {
+      "skills": [
+        "c++",
+        "ооп"
+      ],
+      "count": 270
+    },
+    {
+      "skills": [
+        "git",
+        "qt"
+      ],
+      "count": 270
+    }
+  ]
+}

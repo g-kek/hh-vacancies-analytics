@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hw5-quota
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: hw5-budget
+  namespace: hw5-quota
+spec:
+  hard:
+    requests.cpu: "1"
+    limits.memory: 256Mi
+    pods: "2"

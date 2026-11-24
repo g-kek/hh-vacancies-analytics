@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hh-quota-second
+  namespace: hw5-quota
+spec:
+  backoffLimit: 0
+  activeDeadlineSeconds: 240
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: quota
+          image: hh-analytics:hw5
+          imagePullPolicy: Never
+          command: ["/bin/sh", "-ec"]
+          args:
+            - |
+              echo "Pod admitted and running"
+              sleep 1
+          resources:
+            requests:
+              cpu: 600m
+              memory: 32Mi
+            limits:
+              cpu: "1"
+              memory: 96Mi
