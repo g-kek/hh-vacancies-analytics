@@ -1,0 +1,4 @@
+peak_bytes=187191296
+peak_Mi=178.520
+formula=ceil((peak_bytes * 1.25) / (16 * 1024**2)) * 16 Mi
+limit_Mi=224

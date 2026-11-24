@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hh-map
+  namespace: hw5
+spec:
+  backoffLimit: 4
+  activeDeadlineSeconds: 300
+  completionMode: Indexed
+  completions: 4
+  parallelism: 4
+  backoffLimitPerIndex: 1
+  maxFailedIndexes: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: analytics
+          image: hh-analytics:hw5
+          imagePullPolicy: Never
+          args: ["map"]
+          envFrom:
+            - secretRef:
+                name: s3-internal
+          resources:
+            requests:
+              cpu: "500m"
+              memory: 64Mi
+            limits:
+              cpu: "1"
+              memory: 256Mi

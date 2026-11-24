@@ -1,0 +1,13 @@
+2026-11-24 23:01:24 MSK
+kind v0.30.0 go1.24.6 darwin/arm64
+Docker client 24.0.6, server 24.0.6
+Docker CPUs 8, cgroup v2
+sha256:e2754c74c8f7c747cea5b3d4f07d5cd1a87ca3980888619020ea99af8b315b77 linux/arm64
+Client Version: v1.34.0
+Kustomize Version: v5.7.1
+Server Version: v1.34.0
+NAME                   STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                         KERNEL-VERSION    CONTAINER-RUNTIME
+hh-hw5-control-plane   Ready    control-plane   53s   v1.34.0   172.20.0.2    <none>        Debian GNU/Linux 12 (bookworm)   6.4.16-linuxkit   containerd://2.1.3
+NAME                   CPU   MEMORY
+hh-hw5-control-plane   8     8032992Ki
+cgroup2fs

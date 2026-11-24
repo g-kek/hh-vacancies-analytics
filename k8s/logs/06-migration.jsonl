@@ -1,0 +1,12 @@
+{"bucket": "hh-lake", "key": "bronze/vacancies.csv", "bytes": 65706352, "sha256": "0572992aecb502f26255f5bc5b8bf7d91bdb5647616f6eb28ef4160cabeaf807", "verified": true}
+{"bucket": "it-vacancies", "key": "dataset_manifest.json", "bytes": 747, "sha256": "a6595be6355bd898ad5bec136e15d350745c7b05b98e1a30350f20b62bdb0c6e", "verified": true}
+{"bucket": "it-vacancies", "key": "it_vacancies.csv", "bytes": 1728116, "sha256": "37a1b28c7072afa25b1fb725d74d1bf46658c1516cc6640377a952d36bb8aaed", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-baseline.json", "bytes": 24, "sha256": "5f8da8adf3402a0987107abb0078236c424ad6e42b339b424ca19d984a0a3d75", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-baseline_final.json", "bytes": 30, "sha256": "986f351d8c2d896d488a0dae144bd01e04e8efab4077d4695f6afe3835c947d0", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-loss1.json", "bytes": 21, "sha256": "1ed5b31d0272b98ecbdfc48b19200e9db7bbccebd68bda1fb625ae952b4d5a97", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-loss1_final.json", "bytes": 27, "sha256": "f3e95a4f206a2c1898d51156bb1749a7d35a37aca323769d476ec4e4fb1e0956", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-permission1.json", "bytes": 27, "sha256": "30a6914f93e7d5cffb8a311c7f2c78213d15bae1dfc8b9079ce43b9408892542", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-permission2.json", "bytes": 27, "sha256": "7abb81cd7e17aa73d8952a47ca9284704e323ad4aecf85c06ecfefbf44c2f299", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-restored.json", "bytes": 24, "sha256": "b6834a8a88b27dd058b4c9d028fd6e50b4a2673e51b6721ee4960ae434fe8016", "verified": true}
+{"bucket": "it-vacancies", "key": "probe-restored_screenshot.json", "bytes": 35, "sha256": "e193160bc27eebd6c292a15426cc4627fcd682332c3446e5784c0e1a3319c4ee", "verified": true}
+{"bucket": "it-vacancies", "key": "vacancies_sample.json", "bytes": 39416, "sha256": "cf6596ad0478d7a6fed72238dad9679888160444f16ac008bd793ab78e4e6858", "verified": true}

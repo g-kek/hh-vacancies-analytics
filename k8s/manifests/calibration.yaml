@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hh-calibration
+  namespace: hw5
+spec:
+  backoffLimit: 0
+  activeDeadlineSeconds: 300
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: analytics
+          image: hh-analytics:hw5
+          imagePullPolicy: Never
+          args: ["count"]
+          envFrom:
+            - secretRef:
+                name: s3-external
+          resources:
+            requests:
+              cpu: "500m"
+              memory: 32Mi
+            limits:
+              cpu: "2"
+              memory: 512Mi

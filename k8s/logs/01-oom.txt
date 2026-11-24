@@ -1,0 +1,5 @@
+job.batch/hh-oom created
+job.batch/hh-oom condition met
+POD            PHASE    REASON      EXIT   CPU_REQUEST   CPU_LIMIT   MEM_REQUEST   MEM_LIMIT
+hh-oom-bgsr9   Failed   OOMKilled   137    500m          2           32Mi          64Mi
+2026-11-24T20:01:51.982403385Z {"stage": "count_start", "cap": 20, "hold_seconds": 0}

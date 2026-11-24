@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hh-cpu-wait
+  namespace: hw5
+spec:
+  backoffLimit: 0
+  activeDeadlineSeconds: 300
+  template:
+    spec:
+      restartPolicy: Never
+      priorityClassName: hw5-low
+      terminationGracePeriodSeconds: 2
+      containers:
+        - name: analytics
+          image: hh-analytics:hw5
+          imagePullPolicy: Never
+          args: ["count"]
+          envFrom:
+            - secretRef:
+                name: s3-internal
+          resources:
+            requests:
+              cpu: "6"
+              memory: 128Mi
+            limits:
+              cpu: "6"
+              memory: 256Mi

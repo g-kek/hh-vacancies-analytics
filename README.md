@@ -16,3 +16,8 @@ docker compose up -d
 .venv/bin/hh load
 .venv/bin/hh run
 ```
+
+## ДЗ №5. Kubernetes
+
+[Воспроизведение экспериментов](k8s/README.md) · [Отчёт](reports/hw5.md) ·
+[PDF](reports/hw5.pdf)
